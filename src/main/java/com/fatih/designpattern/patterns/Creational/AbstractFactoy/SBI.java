@@ -1,0 +1,11 @@
+package com.fatih.designpattern.patterns.Creational.AbstractFactoy;
+
+public class SBI implements Bank {
+    private final String BNAME;
+    public SBI(){
+        BNAME="SBI BANK";
+    }
+    public String getBankName(){
+        return BNAME;
+    }
+}
